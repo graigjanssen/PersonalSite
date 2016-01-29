@@ -1,3 +1,44 @@
+  /*GLOBAL*/
+
 body {
   background-color: lightblue;
+}
+
+  /*HEADER*/
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  background-color: rgb(28, 26, 45);
+  color: rgb(255, 255, 245);
+}
+#my-name {
+  position: absolute;
+  top: 8px;
+  left: 5%;
+  font-size: 2rem;
+}
+#nav {
+  list-style-type: none;
+  position: absolute;
+  top: 12px;
+  right: 3%;
+}
+
+.nav-item {
+  display: inline;
+  font-size: 1.6rem;
+  padding: 1rem 1rem 1.4rem 1rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.fake {
+  width: 200px;
+  height: 800px;
+  background-color: rgb(71, 17, 97);
+  margin: 0 0 36px 100px;
 }
