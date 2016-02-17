@@ -68,6 +68,21 @@ section {
   margin-top: 3rem;
 }
 
+.bottom-btn-section {
+  text-align: center;
+  margin-top: 4rem;
+}
+button.bottom-btn {
+  width: 80%;
+  background-color: rgb(37, 35, 131);
+  border: 0;
+  transition: background-color .4s, border .4s;
+}
+button.bottom-btn:hover {
+  background-color: rgb(189, 118, 11);
+  border: 1px solid rgb(21, 19, 28);
+}
+
   /*LEAD SECTION*/
 
 .lead-box {
