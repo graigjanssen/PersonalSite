@@ -53,18 +53,19 @@ header {
   /*MAIN CONTENT*/
 
 section {
-  height: 660px;
   width: 100%;
 }
 .lead {
+  height: 680px;
   padding-top: 48px;
   background-color: rgba(50, 51, 57, 0.55);
 }
 .web {
-  height: 880px;
+  padding-bottom: 3rem;
   background-color: rgba(220,220,225,0.8);
 }
 .audio {
+  padding-bottom: 3rem;
   background-color: rgba(180,180,190,0.8);
 }
 .connect {
@@ -230,4 +231,34 @@ button.bottom-btn:hover {
   float: left;
   height: 85px;
   margin: 0 1.15rem;
+}
+/* ~~~~ SUB PAGE GENERAL ~~~~ */
+.subpage-title {
+  text-align: center;
+}
+/* ~~~~ WEB PAGE ~~~~ */
+
+#portfolio {
+  background-color: rgba(0,0,0,.6);
+}
+.project-box {
+
+}
+.project-img {
+  width: 100%;
+}
+.project-info {
+
+}
+.project-info span {
+
+}
+.project-title {
+
+}
+.project-github {
+
+}
+.project-blurb {
+
 }
