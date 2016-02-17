@@ -20,6 +20,10 @@ header {
   left: 5%;
   font-size: 2rem;
 }
+#my-name:hover {
+  cursor: pointer;
+}
+
 #nav {
   list-style-type: none;
   position: absolute;
@@ -76,11 +80,10 @@ button.bottom-btn {
   width: 80%;
   background-color: rgb(37, 35, 131);
   border: 0;
-  transition: background-color .4s, border .4s;
+  transition: background-color .4s;
 }
 button.bottom-btn:hover {
-  background-color: rgb(189, 118, 11);
-  border: 1px solid rgb(21, 19, 28);
+  background-color: rgb(215, 165, 37);
 }
 
   /*LEAD SECTION*/
