@@ -14,14 +14,13 @@ header {
   color: rgb(255, 255, 245);
   z-index: 1000;
 }
-#my-name {
+#my-name a {
   position: absolute;
   top: 8px;
   left: 5%;
   font-size: 2rem;
-}
-#my-name:hover {
-  cursor: pointer;
+  color: rgb(255, 255, 245);
+  text-decoration: none;
 }
 
 #nav {
@@ -33,20 +32,19 @@ header {
 
 .nav-item {
   display: inline;
+}
+
+.nav-item a {
   font-size: 1.6rem;
   padding: 1rem 1rem 1.4rem 1rem;
   background-color: rgba(210, 161, 102, 0);
   color: rgba(185,185,185, .8);
+  text-decoration: none;
   transition: background-color .25s, color .25s;
 }
-.nav-item:hover {
-  cursor: pointer;
-  background-color: rgba(210, 161, 102, .5);
+.nav-item a:hover {
   color: rgba(255,255,255,1);
-}
-
-.nav-link {
-  text-decoration: none;
+  background-color: rgba(210, 161, 102, .5);
 }
 
 
