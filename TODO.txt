@@ -1,0 +1,30 @@
+_ AUDIO PAGE
+
+  _ Section 1 - Full Screen Intro
+
+    _ Heading - "Audio Production Services"
+    _ Image - Pic of me at Mercy controls
+    _ Copy - Catchy, concise listing of services
+      - Recording:
+      - Mixing:
+      - Mastering:
+      - Production:
+    _ CTA - Email/phone
+
+  _ Section 2 - The Studio
+    _ Heading
+    _ Subheading
+    _ 3 Rooms - Simple responsive layout, just 1 breakpoint
+
+  _ Section 3 - The Engineer
+    _ Short paragraph about me
+    - Credits
+    
+  _ Section 4 - Connect
+
+*********************
+
+BACKLOG
+
+  _ Form for audio inquiries that generates email to me
+  _ Audio samples
