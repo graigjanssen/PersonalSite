@@ -1,0 +1,46 @@
+.audio-lead {
+  height: 680px;
+  padding-top: 48px;
+  background-color: rgba(50, 51, 57, 0.25);
+}
+.audio-lead-box {
+  margin-top: 2rem;
+  background-color: rgba(25,25,25,.75);
+}
+.audio-subpage-title {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-style: italic;
+  font-size: 3.2rem;
+  margin: 2rem 3rem;
+  text-align: center;
+}
+.audio-lead-box img {
+  float: left;
+  width: 40%;
+  border-radius: 5px;
+  margin: 0 2rem 0 3rem;
+}
+.audio-services-item {
+  background-color: rgba(100,100,100,.4);
+  padding: 0 2.5%;
+  margin-bottom: 1rem;
+  margin-left: 50%;
+  margin-right: 5%;
+  border: 1px solid rgb(125,125,130);
+  border-radius: 6px;
+  text-align: center;
+}
+.audio-services-heading {
+  margin: .5rem 0 .25rem 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: rgb(215,215,220);
+}
+.audio-services-desc {
+  margin-bottom: 1rem;
+  padding-bottom: .15rem;
+  font-size: 1.1rem;
+  color: rgb(200,200,195);
+  line-height: 1.6rem;
+}
