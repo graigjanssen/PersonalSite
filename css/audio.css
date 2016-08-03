@@ -5,42 +5,112 @@
 }
 .audio-lead-box {
   margin-top: 2rem;
-  background-color: rgba(25,25,25,.75);
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: rgba(25,25,25,.7);
 }
 .audio-subpage-title {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
+  font-size: 3.5rem;
   font-style: italic;
-  font-size: 3.2rem;
-  margin: 2rem 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
   text-align: center;
+  text-shadow: -1px -1px 8px rgb(244, 226, 132);
 }
 .audio-lead-box img {
-  float: left;
-  width: 40%;
-  border-radius: 5px;
-  margin: 0 2rem 0 3rem;
+  width: 85%;
+  border-radius: 3px;
+  margin: 0 7.5%;
 }
 .audio-services-item {
-  background-color: rgba(100,100,100,.4);
-  padding: 0 2.5%;
-  margin-bottom: 1rem;
-  margin-left: 50%;
-  margin-right: 5%;
-  border: 1px solid rgb(125,125,130);
+  background-color: rgba(60,60,70,.45);
+  width: 90%;
+  padding: 1% 10%;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(110,110,125);
   border-radius: 6px;
   text-align: center;
 }
 .audio-services-heading {
-  margin: .5rem 0 .25rem 0;
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: rgb(215,215,220);
+  font-family: 'Julius Sans One', sans-serif;
+  margin: .5rem 0;
+  font-size: 1.8rem;
+  color: white;
 }
 .audio-services-desc {
   margin-bottom: 1rem;
-  padding-bottom: .15rem;
-  font-size: 1.1rem;
-  color: rgb(200,200,195);
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(215,215,217);
   line-height: 1.6rem;
+}
+.lead-cta {
+  margin-top: 2.5rem;
+  color: white;
+}
+.lead-cta-heading {
+  margin-bottom: .3rem;
+  text-align: center;
+  font-size: 2.75rem;
+}
+.lead-cta-blurb {
+  margin-bottom: 2.25rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(217,217,210);
+}
+.lead-cta-item {
+  margin-left: 6%;
+  margin-bottom: .3rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.75rem;
+}
+
+/*STUDIOS*/
+
+.studios {
+  background-color: rgba(52,50,54,.8);
+  color: white;
+  padding: 2rem 0;
+}
+.studios-title {
+  font-style: normal;
+  margin-bottom: 1.5rem;
+}
+.studios-blurb {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 4rem;
+  padding: 0 12.5%;
+  line-height: 2.5rem;
+  color: rgb(225,225,225);
+}
+.rooms {
+  padding: 0 5%;
+}
+.room {
+  color: white;
+}
+.room-pic img {
+  width: 95%;
+  margin: 0 2.5%;
+  margin-bottom: 2rem;
+  border: 2px solid rgb(100,100,100);
+  border-radius: 4px;
+}
+.room-title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.room-subtitle {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(225,225,225);
 }
