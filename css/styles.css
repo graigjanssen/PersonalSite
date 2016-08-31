@@ -286,3 +286,24 @@ button.bottom-btn:hover {
   padding-top: 1rem;
   padding-left: 1rem;
 }
+
+@media (max-width: 600px) {
+  .lead-title {
+    font-size: 3rem;
+  }
+  .section-title {
+    font-size: 3rem;
+  }
+  .blurb {
+    line-height: 2.5rem;
+  }
+  .connect-email-link {
+    font-size: 2rem;
+  }
+  .social-media-box {
+    height: 96px;
+  }
+  .social-media-btn {
+    height: 48px;
+  }
+}

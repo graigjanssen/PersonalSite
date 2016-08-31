@@ -1,20 +1,20 @@
 .audio-lead {
-  height: 680px;
+  height: 720px;
   padding-top: 48px;
   background-color: rgba(50, 51, 57, 0.25);
 }
 .audio-lead-box {
   margin-top: 2rem;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  background-color: rgba(25,25,25,.7);
+  background-color: rgba(23,24,25,.8);
 }
 .audio-subpage-title {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   font-style: italic;
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -28,8 +28,8 @@
 }
 .audio-services-item {
   background-color: rgba(60,60,70,.45);
-  width: 90%;
-  padding: 1% 10%;
+  width: 85%;
+  padding: 1% 5%;
   margin-bottom: 1.5rem;
   margin-left: auto;
   margin-right: auto;
@@ -40,15 +40,16 @@
 .audio-services-heading {
   font-family: 'Julius Sans One', sans-serif;
   margin: .5rem 0;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: white;
 }
 .audio-services-desc {
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-family: 'Raleway', sans-serif;
   color: rgb(215,215,217);
   line-height: 1.6rem;
+  letter-spacing: .125rem;
 }
 .lead-cta {
   margin-top: 2.5rem;
@@ -57,12 +58,12 @@
 .lead-cta-heading {
   margin-bottom: .3rem;
   text-align: center;
-  font-size: 2.75rem;
+  font-size: 2.5rem;
 }
 .lead-cta-blurb {
   margin-bottom: 2.25rem;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   text-align: center;
   color: rgb(217,217,210);
 }
@@ -76,20 +77,23 @@
 /*STUDIOS*/
 
 .studios {
-  background-color: rgba(52,50,54,.8);
+  background-color: rgba(34,36,38,.85);
   color: white;
-  padding: 2rem 0;
+  padding: 2.5rem 0;
 }
 .studios-title {
   font-style: normal;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.25rem;
+  font-size: 3.5rem;
 }
 .studios-blurb {
   font-family: 'Raleway', sans-serif;
   margin-bottom: 4rem;
-  padding: 0 12.5%;
-  line-height: 2.5rem;
+  padding: 0 15%;
+  line-height: 2.25rem;
+  font-size: 1.35rem;
   color: rgb(225,225,225);
+  letter-spacing: .12rem;
 }
 .rooms {
   padding: 0 5%;
@@ -101,16 +105,140 @@
   width: 95%;
   margin: 0 2.5%;
   margin-bottom: 2rem;
-  border: 2px solid rgb(100,100,100);
+  border: 1px solid rgb(100,100,100);
   border-radius: 4px;
 }
 .room-title {
+  font-family: 'Julius Sans One', sans-serif;
   margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.room-subtitle {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.75rem;
+  color: rgb(190,190,190);
+}
+
+.room-detail-list {
+  list-style-position: outside;
+  padding: 0 6%;
+  font-size: 1.25rem;
+  color: rgb(235,235,235);
+}
+.room-detail {
+  margin-bottom: 1.25rem;
+  letter-spacing: .12rem;
+}
+.features {
+  padding: 0 5%;
+}
+.features-title {
+  font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   font-size: 3rem;
 }
-.room-subtitle {
+.features-subtitle {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  color: rgb(215,215,215);
+}
+.features-list {
+  list-style-position: outside;
+  padding: 0 2.5%;
+  font-size: 1.25rem;
+  letter-spacing: .12rem;
+  color: rgb(240,240,240);
+}
+.side-pic img {
+  width: 95%;
+  margin: 7.5rem 2.5%;
+  border: 1px solid rgb(100,100,100);
+  border-radius: 4px;
+}
+
+/*ENGINEER*/
+
+.engineer {
+  padding: 2.5rem 0;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(44,46,48,.9);
+}
+.engineer-title {
+  font-style: normal;
+  font-size: 3.5rem;
+}
+.engineer-blurb-container {
+  margin: 0 10%;
   color: rgb(225,225,225);
+}
+#engineer-blurb-pic {
+  float: left;
+  width: 35%;
+  margin: 0 1rem 3rem 0;
+  border: 2px solid rgb(30,30,30);
+  border-radius: 8px;
+}
+.engineer-blurb {
+  font-size: 1.35rem;
+  line-height: 2.25rem;
+  letter-spacing: .12rem;
+}
+.engineer-subsections {
+  padding: 0 5%;
+}
+.engineer-subheading {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.howIWork-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  color: rgb(225,225,225);
+}
+.howIWork-column {
+  float: left;
+  width: 50%;
+  line-height: 1.8rem;
+}
+#iWill {
+  color: rgb(220,230,220);
+}
+#iWont {
+  color: rgb(235,220,220);
+}
+.howIWork-list {
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0 1.5rem;
+  font-size: 1.35rem;
+}
+#credits-list {
+  text-align: center;
+}
+.credit {
+  display: inline-block;
+  padding: 0 1rem;
+  color: rgb(230,230,230);
+  font-size: 1.5rem;
+  letter-spacing: .125rem;
+}
+.clearfix {
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media (max-width: 600px){
+  .engineer-blurb-container {
+    margin: 0 2.5%;
+  }
+  #engineer-blurb-pic {
+    margin-bottom: .25rem;
+  }
 }
