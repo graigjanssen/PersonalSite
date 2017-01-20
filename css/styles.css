@@ -60,11 +60,11 @@ section {
 }
 .web {
   padding-bottom: 3rem;
-  background-color: rgba(220,220,225,0.8);
+  background-color: rgba(220,220,225,0.85);
 }
 .audio {
   padding-bottom: 3rem;
-  background-color: rgba(180,180,190,0.8);
+  background-color: rgba(190,190,195,0.9);
 }
 .connect {
   height: 440px;
@@ -96,11 +96,16 @@ button.bottom-btn {
 button.bottom-btn:hover {
   background-color: rgb(215, 165, 37);
 }
+.section-title {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+}
 
   /*LEAD SECTION*/
 
 .lead-box {
   background-color: rgba(175,175,175,.15);
+  color: #fefefe;
   border-radius: 4px;
   margin-top: 8rem;
 }
@@ -110,9 +115,16 @@ button.bottom-btn:hover {
   margin-right: 2rem;
   z-index: -1000;
 }
+
 .lead-title {
-  color: rgb(247, 244, 235);
-  margin: 6rem 3rem 3rem 3rem;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  margin: 1.35em 0 .5em 0;
+  font-size: 3.42em;
+}
+.lead-subtitle {
+  color: #ededed;
+  font-size: 1.7em;
 }
 
   /*WEB SECTION*/
@@ -287,9 +299,21 @@ button.bottom-btn:hover {
   padding-left: 1rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 560px) {
+  .lead-box {
+    text-align: center;
+  }
+  .lead-logo {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+  }
   .lead-title {
-    font-size: 3rem;
+    margin: .4em 0 .3em 0;
+    font-size: 2.5em;
+  }
+  .lead-subtitle {
+    font-size: 1.25em;
   }
   .section-title {
     font-size: 3rem;
@@ -304,6 +328,6 @@ button.bottom-btn:hover {
     height: 96px;
   }
   .social-media-btn {
-    height: 48px;
+    height: 38px;
   }
 }
